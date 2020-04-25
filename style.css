@@ -1,0 +1,25 @@
+.banner {
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    margin-top: 25px;
+    width: 100%;
+    border-bottom: solid #525252 1px;
+}
+
+.banner-img {
+    width: 85%;
+}
+
+.banner-text {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    width: 90%;
+}
+
+.banner-text p {
+    margin: 15px;
+}

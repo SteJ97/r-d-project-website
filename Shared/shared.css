@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	background-color: #1d1d1d;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	min-height: 85px;
+	border-bottom: solid #525252 1px;
+	padding-top: 15px;
+}
+
+nav,
+main {
+	margin: auto;
+	max-width: 1150px;
+}
+
+.logo {
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+	width: 195px;
+	height: 51px;
+	font-size: 1.2rem;
+}
+
+.logo:hover {
+}
+
+.logo a {
+	display: flex;
+	align-content: center;
+	color: white;
+	text-decoration: none;
+}
+
+.logo-img {
+	margin: 10px;
+	width: 40px;
+	margin-bottom: 25px;
+}
+
+.logo-text {
+	margin-top: 25px;
+}
+
+.search {
+}
+
+.search-input {
+	display: flex;
+	align-items: center;
+}
+
+.search-input__box {
+	width: 320px;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 0;
+}
+
+.search-input__button {
+	width: 22px;
+	position: relative;
+	right: 30px;
+}
+
+.nav-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 15px;
+	font-size: 1.2rem;
+}
+
+.nav-buttons div {
+}
+
+.nav-buttons a {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.nav-buttons a:hover {
+	color: #f0ff00;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-buttons__movie {
+}
+
+.nav-buttons__tv {
+}
+
+.nav-buttons__signup {
+}
+
+.nav-buttons__signin {
+}
+
+.nav-buttons__movie-button {
+}
+
+.nav-buttons__tv-button {
+}
+
+.nav-buttons__signup-button {
+}
+
+.nav-buttons__signin-button {
+}
+
+
+
+.nav-buttons__movie-button-dropdown {
+	display: flex;	
+	align-items: center;
+	justify-content: flex-start;
+	padding: 20px;
+	height: 230px;
+	width: 1130px;
+	background-color: #333333;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 100px;
+	transform: translateX(-50%);
+}
+
+.nav-buttons__movie-button-dropdown .dropdown-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.nav-buttons__movie-button-dropdown b {
+    margin-bottom: 10px;
+}
+
+.nav-buttons__movie-button-dropdown a {
+    padding: 5px;
+    margin: 2px 0;
+}
+
+.nav-buttons__movie:hover .nav-buttons__movie-button-dropdown {
+	display: flex;
+}
+
+b {
+    font-size: 1.4rem;
+	color: #f0ff00;
+}
