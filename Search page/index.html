@@ -1,13 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Ratings</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../Shared/shared.css">
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Movie Ratings</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="../Shared/shared.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<a href="/index.html"
+					><img class="logo-img" src="/Images/documentary-xxl.png" alt="logo" />
+					<p class="logo-text">Movie Ratings</p></a
+				>
+			</div>
+			<div class="search">
+				<div class="search-input">
+					<input class="search-input__box" type="text" placeholder="Search..." />
+					<input class="search-input__button" type="image" src="/Images/kindpng_254250.png" alt="" />
+				</div>
+			</div>
+			<div class="nav-buttons">
+				<div class="nav-buttons__movie dropdown">
+					<a class="nav-buttons__movie-button" href="/Search page/index.html">Movies</a>
+					<div class="dropdown-content">
+						<div class="dropdown-column">
+							<b>New Releases</b>
+							<a href="#">New releases</a>
+							<a href="#">New releases</a>
+							<a href="#">New releases</a>
+							<a href="#">New releases</a>
+							<a href="#">New releases</a>
+						</div>
+						<div class="dropdown-column">
+							<b>New Releases</b>
+							<a href="#">New releases</a>
+							<a href="#">New releases</a>
+							<a href="#">New releases</a>
+							<a href="#">New releases</a>
+							<a href="#">New releases</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="nav-buttons__tv dropdown">
+					<a class="nav-buttons__tv-button" href="">Tv Shows</a>
+					<div class="dropdown-content">
+						<div class="dropdown-column">
+							<b>Releases</b>
+							<a href="#">releases</a>
+							<a href="#">releases</a>
+							<a href="#">releases</a>
+							<a href="#">releases</a>
+							<a href="#">releases</a>
+						</div>
+						<div class="dropdown-column">
+							<b>New Releases</b>
+							<a href="#">releases</a>
+							<a href="#">releases</a>
+							<a href="#">releases</a>
+							<a href="#">releases</a>
+							<a href="#">releases</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="nav-buttons__signup">
+					<a class="nav-buttons__signup-button" href="">Sign Up</a>
+				</div>
+				<div class="nav-buttons__signin">
+					<a class="nav-buttons__signin" href="">Sign In</a>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<div class="container-1">
+				<div class="left-pane">
+					<div class="page-navigation">
+						<b>Genre's</b>
+						<a id="selected" href="#">Action</a>
+						<a href="">Adventure</a>
+						<a href="">Animation</a>
+						<a href="">Biography</a>
+						<a href="">Comedy</a>
+						<a href="">Crime</a>
+						<a href="">Documentary</a>
+						<a href="">Drama</a>
+						<a href="">Family</a>
+						<a href="">Fantasy</a>
+						<a href="">Film Noir</a>
+						<a href="">History</a>
+						<a href="">Horror</a>
+						<a href="">Music</a>
+					</div>
+				</div>
+			</div>
+			<div class="container-2">
+				<div class="movie-gallery">
+					<div class="row">
+						<div class="movie-gallery__img">
+							<a href="/Movie content page/index.html"><img src="/Images/movie-art-1.jpg" alt="" /></a>
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-2.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-3.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-4.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+					</div>
+				</div>
+				<div class="movie-gallery">
+					<div class="row">
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-5.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-6.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-7.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-8.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+					</div>
+				</div>
+				<div class="movie-gallery">
+					<div class="row">
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-9.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-10.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-11.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+						<div class="movie-gallery__img">
+							<img src="/Images/movie-art-12.jpg" alt="" />
+							<p><img src="/Images/star.png" alt="" />85%</p>
+						</div>
+					</div>
+				</div>
+				<div class="container-2-1"></div>
+				<div class="load-more">
+					<div class="load-more__btn">
+						<button class="but">Load More</button>
+					</div>
+				</div>
+				<script>
+					$(function () {
+						$('.but').on('click', function (e) {
+							e.preventDefault();
+							$('.container-2-1').load('gallery2.html');
+						});
+					});
+					$('.but').click(function () {
+						$('.load-more').css({
+							display: 'none',
+						});
+					});
+				</script>
+			</div>
+		</main>
+		<footer>
+			<div class="footer-contact-about">
+				<a href="">About</a>
+				<a href="">Contact</a>
+			</div>
+			<div class="footer-author">
+				<span>By Stephen Johnson - 2020</span>
+			</div>
+			<div class="footer-social">
+				<a href=""><img src="/Images/facebook-7-xxl.png" alt="" /></a>
+				<a href=""><img src="/Images/pngkey.com-twitter-logo-png-transparent-111779.png" alt="" /></a>
+				<a href=""><img src="/Images/pngfind.com-social-media-icons-black-6813035.png" alt="" /></a>
+			</div>
+		</footer>
+	</body>
 </html>
