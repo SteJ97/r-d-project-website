@@ -65,6 +65,7 @@ h2 {
 .recent-gallery__img img:hover {
 	transform: scale(1.05);
 	box-shadow: #1eff0185 0px 0px 2px 4px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .release-gallery__img p,
